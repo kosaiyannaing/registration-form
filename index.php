@@ -6,33 +6,34 @@
 </head>
 <body>
 	<div class="content-center">
-		<h1>Registration Form</h1>
-			<form action="register.php" method="post">
+		<div id="wrapper">
+			<h1>Registration Form</h1>
+			<form>
 				<table>
 					<tr>
 						<td>Name</td>
-						<td><input type="text" name="name" required></td>
+						<td><input type="text" id="username" required></td>
 					</tr>
 					<tr>
 						<td>Email</td>
-						<td><input type="email" name="email" required></td>
+						<td><input type="email" id="email" required></td>
 					</tr>
 					<tr>
 						<td>Phone</td>
-						<td><input type="tel" name="phone" required></td>
+						<td><input type="tel" id="phone" required></td>
 					</tr>
 					<tr>
 						<td>Password</td>
-						<td><input type="password" name="password" required></td>
+						<td><input type="password" id="password" required></td>
 					</tr>
 					<tr>
 						<td>Confirm Password</td>
-						<td><input type="password" name="cpassword" required></td>
+						<td><input type="password" id="cpassword" required></td>
 					</tr>
 					<tr>
 						<td>Gender</td>
 						<td>
-							<select name="gender">
+							<select id="gender">
 								<option value="male">Male</option>
 								<option value="female">Female</option>
 							</select>
@@ -40,15 +41,13 @@
 					</tr>
 					<tr>
 						<td></td>
-						<td><input type="submit" name="" value="Register"></td>
+						<td><button id="register">Register</button></td>
 					</tr>
 				</table>
 			</form>
+		</div>
 	</div>
-	
+<script src="js/jquery.js"></script>	
 <script src="js/script.js"></script>
-
 </body>
 </html>
-
-
