@@ -48,7 +48,6 @@
 	
 <script src="js/script.js"></script>
 
-<!-- just testing -->
 </body>
 </html>
 
