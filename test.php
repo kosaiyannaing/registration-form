@@ -18,5 +18,7 @@ $(document).ready(function(){
     <input type="text" id="myInput" required>
     <input type="text" id="a" required>
     <button type="button" id="myBtn">Show Value</button>
+
+    <!-- testing -->
 </body>
 </html>
