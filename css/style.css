@@ -3,3 +3,14 @@
 	margin: 0 auto;
 	max-width: 500px;
 }
+
+div#register-page{
+	background-color: #000;
+}
+#login-page{
+	
+}
+span.err-smg{
+	color:#FE364A;
+	text-align: center;
+}

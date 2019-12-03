@@ -7,16 +7,15 @@
 $(document).ready(function(){
     // Get value on button click and show alert
     $("#myBtn").click(function(){
-        var str = $("#myInput").val();
-        var a=$("#a").val();
-        alert(str+a);
+        $("#hello").html($("#world").html());
+        $("#world").html("ok");
     });
 });
 </script>
 </head>
 <body>
-    <input type="text" id="myInput" required>
-    <input type="text" id="a" required>
+    <div id="hello">Hello</div>
+    <div id="world">World</div>
     <button type="button" id="myBtn">Show Value</button>
 
 </body>
